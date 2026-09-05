@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Barachina Picks</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
@@ -11,58 +12,72 @@ background-color: #E8D5C4;
 min-height: 100vh;
 font-family: Georgia, "Times New Roman", serif;
 color: #1a1a1a;
-padding: 25px 30px 40px 30px;
+padding: 28px 28px 50px 28px;
 }
 .container {
-max-width: 480px;
+max-width: 420px;
 margin: 0 auto;
 }
 .logo {
 display: block;
-max-width: 280px;
-margin: 0 auto 18px auto;
+max-width: 260px;
+margin: 0 auto 20px auto;
 }
 h1 {
-font-size: 22px;
-font-weight: 500;
+font-family: "Playfair Display", Georgia, serif;
+font-size: 20px;
+font-weight: 600;
 text-align: center;
-margin-bottom: 28px;
-color: #333;
+color: #3a2f2a;
+letter-spacing: 0.3px;
+margin-bottom: 10px;
+}
+.divider {
+width: 48px;
+height: 1.5px;
+background-color: #8b6f5c;
+margin: 0 auto 26px auto;
+opacity: 0.7;
 }
 .menu-list {
 list-style: none;
 }
 .menu-item {
-margin-bottom: 28px;
+margin-bottom: 14px;
 }
 .menu-item a {
 display: flex;
 align-items: center;
 gap: 12px;
-color: #0000EE;
+color: #1a3a8a;
 text-decoration: none;
 font-family: Arial, Helvetica, sans-serif;
-font-size: 18px;
-padding: 12px 16px;
-background: rgba(255,255,255,0.35);
-border-radius: 12px;
-transition: background 0.2s;
+font-size: 17px;
+padding: 14px 18px;
+background: rgba(255,255,255,0.42);
+border-radius: 14px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+transition: all 0.2s ease;
 }
 .menu-item a:hover {
-background: rgba(255,255,255,0.55);
+background: rgba(255,255,255,0.62);
+box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+transform: translateY(-1px);
 }
 .menu-item .icon {
-font-size: 22px;
+font-size: 20px;
 }
 .menu-item .corsivo {
 font-style: italic;
+font-weight: 500;
 }
 </style>
 </head>
 <body>
 <div class="container">
-<img src="logo.png" alt="Barachina" class="logo">
+<img src="logo.png" alt="La Barachina" class="logo">
 <h1>Barachina Picks</h1>
+<div class="divider"></div>
 <ul class="menu-list">
 <li class="menu-item">
 <a href="special-sips.pdf" target="_blank">
