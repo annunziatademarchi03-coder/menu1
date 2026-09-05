@@ -1,19 +1,76 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menu del Bar</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barachina Picks</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+background-color: #E8D5C4;
+min-height: 100vh;
+font-family: Georgia, "Times New Roman", serif;
+color: #1a1a1a;
+padding: 50px 30px;
+}
+.container {
+max-width: 480px;
+margin: 0 auto;
+}
+.logo {
+display: block;
+max-width: 180px;
+margin: 0 auto 30px auto;
+}
+h1 {
+font-size: 36px;
+font-weight: 700;
+text-align: center;
+margin-bottom: 50px;
+white-space: nowrap;
+}
+.menu-list {
+list-style: none;
+}
+.menu-item {
+margin-bottom: 28px;
+}
+.menu-item a {
+display: flex;
+align-items: center;
+gap: 12px;
+color: #0000EE;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+padding: 12px 16px;
+background: rgba(255,255,255,0.35);
+border-radius: 12px;
+transition: background 0.2s;
+}
+.menu-item a:hover {
+background: rgba(255,255,255,0.55);
+}
+.menu-item .icon {
+font-size: 22px;
+}
+.menu-item .corsivo {
+font-style: italic;
+}
+</style>
 </head>
-
 <body>
-  <h1>🍽️ Menu</h1>
-
-  <p>Consulta il nostro menu:</p>
-
-  <a href="menu.pdf" target="_blank">
-    📖 APRI IL MENU
-  </a>
-
+<div class="container">
+<img src="logo.png" alt="Barachina" class="logo">
+<h1>Barachina Picks</h1>
+<ul class="menu-list">
+<li class="menu-item">
+<a href="special-sips.pdf" target="_blank">
+<span class="icon">✨</span>
+<span class="corsivo">Special Sips</span>
+</a>
+</li>
+</ul>
+</div>
 </body>
 </html>
